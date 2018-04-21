@@ -1,0 +1,257 @@
+
+	#nav{
+		position: fixed;
+		top:0px;
+		left:0%;
+		width:15%;
+		height:100%;
+		background-color: black;
+	}
+		#nav ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  	border:none;
+  
+}
+#nav li a {
+   	color: white;
+    background: black;
+    width:100%;
+    height:5%;
+    text-decoration: none;
+ 
+    padding-top: 10%;
+    font-family: 'OpenSansBold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #0099FF;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+	border-bottom: 2px grey solid
+}
+#nav li a:hover {
+    box-shadow: inset 210px 0 0 0 #0099FF;
+}
+    
+
+#profile
+{
+	 border-radius: 50%;
+	 max-height: 30%;
+	 max-width: 100%;
+	 border: solid grey 2px;
+	 margin-left:25px;
+}
+#homel{
+		background: url(../images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		position: absolute;
+		top:0px;
+		left:15%;
+		width:36%;
+		height:100%;
+	}
+#hl
+	{
+		position: absolute;
+		top:20%;
+		right:0px;
+		max-height:80%;
+		max-width:100%;
+	}
+	
+	#hol
+	{
+		width:40%;
+		height:15%;
+		background-color: #0099FF;
+		color:white;
+		font-size: 56pt;
+		position: relative;
+		top:100px;
+		left:58%;
+		font-weight: bolder;
+		text-align: center;
+	}
+	#homer{
+		background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:50%;
+		height:100%;}
+	#hor
+	{
+		width:35%;
+		height:15%;
+		background-color: black;
+		color:white;
+		font-size: 56pt;
+		position: relative;
+		top:100px;
+		right:0px;
+		font-weight: bolder;
+		text-align: center;
+	}
+	#about
+	{
+	background: url(../images/bgabout.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		position: absolute;
+		top:100%;
+		left:15%;
+		width:85%;
+		height:100%;
+    color:white;
+    font-size:24pt;  font-family:cambria	
+	}
+	#portfolio
+	{
+	background: url(../images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		position: absolute;
+		top:200%;
+		left:15%;
+		width:85%;
+		height:100%;	
+	}
+	#aboutl
+	{
+		max-width:60%;
+		margin-left:auto;
+    margin-right:auto;
+		font-size:20pt;
+		font-family:cambria;
+	}
+	#nav table
+	{
+		color:grey;
+		margin-left:35px;
+		font-size:15pt;
+
+	}
+	
+ #contact{
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+          position: absolute;
+          top:300%;
+          left:15%; 
+          height:100%;
+          width:85%;
+    }
+    #form
+    {
+        position: absolute;
+        top:10%;
+        left:50%;
+        background-color: black;
+        color:#f2f2f2;
+        width:30%;
+        height:80%;
+        padding-left:5%;
+     	padding-top:2%;
+    }
+     #info
+    {
+        position: absolute;
+        top:10%;
+        left:5%;
+          background: url(../images/blue.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        color:black;
+        width:30%;
+        height:80%;
+        padding-left:5%;
+     	padding-top:2%;
+     	font-size:18pt;
+     	font-weight:boldest;
+     	font-family:cambria;
+    }
+    h1
+    {
+        font-weight:normal;
+        font-family:batang;
+        font-size: 36px;
+    }
+    #uname,#pwd{
+        background-color:#262626;
+        border:0px;
+        height:10%;
+        width:80%; 
+         color: #f2f2f2;
+        font-size: 24px;
+        font-family: calibri; 
+    }
+    #msg{
+        background-color:#262626;
+        border:0px;
+        height:30%;
+        width:80%; 
+         color: #f2f2f2;
+        font-size: 24px;
+        font-family: calibri; 
+    }
+
+::-moz-placeholder 
+{  
+   color: #f2f2f2;
+   font-size: 24px;
+   font-family: calibri;  
+}
+#submit
+{
+        background-color:#0099FF;
+        border:0px;
+        height:10%;
+        width:75%; 
+        color:black;
+        
+        font-size:24px;
+        font-family: calibri;
+}
+#links a{
+	text-decoration:null;
+}
+#portfolio
+  {
+  background: url(../images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position: absolute;
+    top:200%;
+    left:15%;
+    width:85%;
+    height:100%;  
+  }
+
